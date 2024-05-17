@@ -2,8 +2,8 @@
 
 Scaffolding Tasks
 
-- [X] Vite + Vue-ts
-- [ ] Prettier + ESlint + Husky + Lint Staged
+- [x] Vite + Vue-ts
+- [x] Prettier + ESlint + Husky + Lint Staged
 - [ ] Vue Router
 - [ ] Tailwind
 - [ ] Pinia
