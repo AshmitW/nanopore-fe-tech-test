@@ -5,6 +5,6 @@ Scaffolding Tasks
 - [x] Vite + Vue-ts
 - [x] Prettier + ESlint + Husky + Lint Staged
 - [x] Vue Router
-- [ ] Tailwind
-- [ ] Pinia
+- [x] Tailwind
+- [x] Pinia
 - [ ] UI Library (Element Plus)
