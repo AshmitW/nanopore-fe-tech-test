@@ -7,7 +7,7 @@ This project contains the frontend code for the [Technical Test](https://github.
 Install Dependecies -`yarn`
 
 Run the project locally -`yarn dev`
-**You any email from customers.json in data folder. The allowed actions and UI will be based on the permissions mentioned**
+**You any use email from customers.json in data folder. The allowed actions and UI will be based on the permissions mentioned**
 **You can enter anything for password, its not used.**
 
 Build the project -`yarn build`
