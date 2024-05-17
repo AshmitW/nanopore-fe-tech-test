@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide-fade-enter-active {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+:root {
+  --el-color-primary: #265b76 !important;
+}
+
+.el-menu-item {
+  color: var(--el-color-primary) !important;
+  border-radius: 0.75rem;
+}
+
+.el-menu-item:hover {
+  background-color: #e4f1f5 !important;
+}
+
+.el-menu-item.is-active {
+  font-weight: bold;
+  background-color: #e4f1f5 !important;
+}
+.el-tabs__item {
+  font-weight: normal !important;
+  color: white !important;
+}
+
+.el-tabs__item.is-active {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.el-tabs__nav-wrap:after {
+  height: 6px !important;
+  background-color: #265b76 !important;
+}
+
+.el-tabs__active-bar {
+  height: 6px !important;
+  background-color: #9dc7e8 !important;
+}
+
+.el-collapse-item__header {
+  height: 10rem !important;
+}
+
+.el-collapse-item__header.is-active {
+  background-color: #e3eff4;
+}
+
+.el-collapse-item__content {
+  background-color: #f7fafc;
+}
