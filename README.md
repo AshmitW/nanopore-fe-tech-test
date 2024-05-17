@@ -1,9 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# Oxford Nanopore Frontend Technical Test
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project contains the frontend code for the [Technical Test](https://github.com/johnjenkins/nanopore-fe-tech-test/), conducted by Oxford Nanopore.
 
-## Recommended Setup
+## Running the Project
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+Install Dependecies -`yarn`
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+Run the project locally -`yarn dev`
+**You can enter anything for password, its not used.**
+
+Build the project -`yarn build`
+
+## Note
+
+Hi, this is my submission as per the requirements.
+I'll explain the tech stack used below and my reasoning for selecting it... if required:
+
+-**Vue with TS and Vite**: Even though I was allowed free reign to choose any framework I want, I decided to go with Vue. While my Vue is weaker compared to React or maybe even Angular(debatable), I decided that I will stick with Vue since that is what the role requires of me in the future. It also allows me to show where I stand right now with Vue and also showcase how quick I can catch up and adapt.
+
+-**Prettier + Eslint + Husky + Lint Staged**
+
+-**Vue Router**
+
+-**Tailwind**: I find it most useful in terms of css libraries. Anything which stops me from writing too many custom classes and going through the mess of sorting them later :).
+
+-**Pinia**: I did some research about what store library is used by developers and found out that Pinia has replaced Vuex by majority of the developers these days. Did some research on why thats the case, read some documentation and decided to go with Pinia.
+
+-**Element Plus**: I was confused between Element Plus and PrimeVue but ultimately decided with Element Plus as I liked the components a little bit more.
+
+Todo file has all the tasks written down, Including all the completed ones and future tasks. I've written them down based on the order I tackled them and the order I plan on tackling them in the future.
