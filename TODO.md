@@ -1,4 +1,10 @@
-# List of things that need to be done next
+# List of tasks done and to be done in order
 
-- [ ] Item 1
-- [ ] Item 2
+Scaffolding Tasks
+
+- [X] Vite + Vue-ts
+- [ ] Prettier + ESlint + Husky + Lint Staged
+- [ ] Vue Router
+- [ ] Tailwind
+- [ ] Pinia
+- [ ] UI Library (Element Plus)
