@@ -21,7 +21,8 @@
     "*": "prettier -w -u"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.9.0",
