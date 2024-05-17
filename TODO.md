@@ -7,4 +7,4 @@ Scaffolding Tasks
 - [x] Vue Router
 - [x] Tailwind
 - [x] Pinia
-- [ ] UI Library (Element Plus)
+- [x] UI Library (Element Plus)
